@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    background: url(images/background.png);
+    font-family: sans-serif;
+}
+
+.banner-bg{
+    position: absolute;
+    display: inline;
+    top: 0;
+    width: 100%;
+    background: url(images/bannerbg.png);
+}
+
+.banner-img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.main-title{
+    margin-top: 60px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-size: 24pt;
+    text-shadow: 3px 3px #999;
+}
+
+.float-right{
+    float: right;
+}
+
+.main-frame{
+    display: inline-block;
+    width: 70%;
+    margin: 0% 15%;
+    border: 2px solid #504a4a;
+    border-radius: 15px;
+}
+
+img.overview-pic{
+    border-top-right-radius: 13px;
+}
+
+.cast-detail{
+    /* width: min-content; */
+}
+
+.rotten-bg{
+    background: url(images/rbg.png);
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+.rotten-bg img{
+    border-top-left-radius: 13px;
+}
+
+.percent-text{
+    font-size: 5rem;
+    color: red;
+    position: absolute;
+    font-family: monospace;
+}
+
+.bg-green{
+    background-color: #A2B964;
+    border-top-right-radius: 13px;
+}
+
+.main-review{
+    width: 70%;
+}
+
+.child-review{
+    float: left;
+    width: 50%;
+}
+
+.child-review p{
+    padding: 4%;
+    margin: 3%;
+    font-size: 14px;
+}
+
+.child-review p img{
+    float: left;
+    padding-right: 2%;
+}
+
+.card{
+    border: 1px solid #504a4a;
+    border-radius: 10px;
+    box-shadow: 1px 1px #878181;
+    font-weight: 600;
+    background-color: #E8DC9B;
+}
+
+.card q{
+    display: inline;
+    position: relative;
+}
+
+.footer-sample{
+    position: relative;
+    display: inline-block;
+    width: 98%;
+    margin: 0%;
+    padding: 1%;
+    text-align: center;
+    background-color: #A2B964;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    font-size: 12px;
+}
+
+.cast-detail dt{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.cast-detail dd{
+    font-size: 12px;
+    font-weight: 400;
+}
+.cast-detail dt,.cast-detail dd{
+    padding: 3% 7%;
+    width: 180px;
+}
+
+.italic{
+    font-style: italic;
+}
