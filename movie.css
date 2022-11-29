@@ -133,3 +133,11 @@ img.overview-pic{
 .italic{
     font-style: italic;
 }
+
+.checker{
+    position: fixed;
+    display: block;
+    bottom: 3%;
+    opacity: 0.5;
+    right: 1%;
+}
